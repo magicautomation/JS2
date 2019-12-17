@@ -1,0 +1,54 @@
+body {
+    background-color: #DCDCDC;
+    font-family: "Century Gothic";
+}
+.header{
+    padding: 10px 20px;
+    border-bottom: 1px solid blue;
+    border: #000000 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-button{
+    -webkit-appearance: none;
+    border: none;
+    background-color: #222222;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lime;
+}
+
+.goods-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.goods-item{
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #cccccc;
+    width: calc(100% / 3 - 60px);
+}
+
+.goods-item:hover{
+    border-radius: 100px;
+}
+
+.goods-title {
+    font-weight: bold;
+    margin-left: 40%;
+}
